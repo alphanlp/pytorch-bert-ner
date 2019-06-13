@@ -8,7 +8,8 @@
 
 # Run Exmaple
 --bert_model is the pre_trained pytorch bert model path(pytorch)
-if tensorflow bert model, should convert to pytoch bert model as follow command:
+if tensorflow bert model, should convert to pytoch bert model as follow command:  
+
 `python3 convert_tf_checkpoint_to_pytorch.py --tf_checkpoint_path ../bert_model.ckpt --bert_config_file ../bert_config.json --pytorch_dump_path ../pytorch_model.bin`
 
 ### English
