@@ -1,1 +1,0 @@
-python3 run_ner.py --data_dir=data/ --bert_model=pre_model/base-cased/cased_L-12_H-768_A-12/ --task_name=ner --output_dir=models --max_seq_length=128 --do_train --num_train_epochs 5 --do_eval --warmup_proportion=0.4
