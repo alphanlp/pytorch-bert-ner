@@ -1,0 +1,9 @@
+# PyTorch
+torch>=1.0
+# progress bars in model download and training scripts
+tqdm==4.31.1
+# Used for downloading models over HTTP
+requests
+seqeval==0.0.5
+nltk==3.4
+

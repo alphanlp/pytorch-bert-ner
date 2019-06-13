@@ -1,0 +1,1 @@
+python3 run_ner.py --data_dir=data/people_daily/ --bert_model=pre_model/chinese-base-uncased/ --task_name=chinese_ner --output_dir=models --max_seq_length=64 --do_train --num_train_epochs 1 --do_eval --warmup_proportion=0.4
