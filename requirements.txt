@@ -6,4 +6,6 @@ tqdm==4.31.1
 requests
 seqeval==0.0.5
 nltk==3.4
-
+# Accessing files from S3 directly.
+boto3
+regex
