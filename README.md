@@ -7,10 +7,13 @@
 - `pip3 install -r requirements.txt`
 
 # Run Exmaple
-**--bert_model** is the pre_trained pytorch bert model path(pytorch), must contains: **pytorch_model.bin、vocab.txt、bert_config.json**
+**--bert_model** is the pre_trained pytorch bert model path(pytorch), must contains: **pytorch_model.bin、vocab.txt、bert_config.json**  
+
 If tensorflow bert model(download from https://github.com/google-research/bert), should convert to pytoch bert model as follow command:  
 
 `python3 convert_tf_checkpoint_to_pytorch.py --tf_checkpoint_path ../bert_model.ckpt --bert_config_file ../bert_config.json --pytorch_dump_path ../pytorch_model.bin`
+
+Recommend to download and use the converted model as follows. 
 
 ### English NER
 `python3 run_ner.py --data_dir=data/ --bert_model=base-cased --task_name=ner --output_dir=models --max_seq_length=64 --do_train --num_train_epochs 5 --do_eval --warmup_proportion=0.4`
