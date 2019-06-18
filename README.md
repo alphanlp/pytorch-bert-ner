@@ -22,7 +22,8 @@ Recommend to download and use [the converted model](#data_model)
 ### Chinese NER(example data in code is part of people daily news)
 `python3 run_ner.py --data_dir=data/ --bert_model=chinese-base-uncased --task_name=chinese_ner --output_dir=models --max_seq_length=64 --do_train --num_train_epochs 5 --do_eval --warmup_proportion=0.4
 `
-## Pretrained pytorch model and data download  <span id="data_model"></span>
+<span id="data_model"></span>
+## Pretrained pytorch model and data download
 
 链接：https://pan.baidu.com/s/1TNcsx6zGCKjN_KY2It7hyA  提取码：mlmd 
 
