@@ -56,7 +56,7 @@ avg / total     0.9198    0.9240    0.9217      1290
 
 `python3 predict.py`
 ```
-{'2': {'tag': 'B_T', 'confidence': 0.9999847412109375}, '0': {'tag': 'I_T', 'confidence': 0.9989903569221497}, '1': {'tag': 'I_T', 'confidence': 0.9995298385620117}, '4': {'tag': 'I_T', 'confidence': 0.9996459484100342}, '年': {'tag': 'I_T', 'confidence': 0.9996104836463928}, '新': {'tag': 'O', 'confidence': 0.9995424747467041}, '的': {'tag': 'O', 'confidence': 0.9997028708457947}, '开': {'tag': 'O', 'confidence': 0.9999663829803467}, '始': {'tag': 'O', 'confidence': 0.9999591112136841}, '，胡': {'tag': 'O', 'confidence': 0.9999748468399048}, '阿': {'tag': 'I_PER', 'confidence': 0.9997753500938416}, '沛': {'tag': 'I_PER', 'confidence': 0.9993517994880676}, '很': {'tag': 'O', 'confidence': 0.9993890523910522}, '高': {'tag': 'O', 'confidence': 0.9992743134498596}, '兴': {'tag': 'O', 'confidence': 0.9999097585678101}}
+{'2': {'tag': 'B_T', 'confidence': 0.9999847412109375}, '0': {'tag': 'I_T', 'confidence': 0.9989903569221497}, '1': {'tag': 'I_T', 'confidence': 0.9995298385620117}, '4': {'tag': 'I_T', 'confidence': 0.9996459484100342}, '年': {'tag': 'I_T', 'confidence': 0.9996104836463928}, '新': {'tag': 'O', 'confidence': 0.9995424747467041}, '的': {'tag': 'O', 'confidence': 0.9997028708457947}, '开': {'tag': 'O', 'confidence': 0.9999663829803467}, '始': {'tag': 'O', 'confidence': 0.9999591112136841}, '，王': {'tag': 'O', 'confidence': 0.9999748468399048}, '兴': {'tag': 'I_PER', 'confidence': 0.9997753500938416}, '很': {'tag': 'O', 'confidence': 0.9993890523910522}, '高': {'tag': 'O', 'confidence': 0.9992743134498596}, '兴': {'tag': 'O', 'confidence': 0.9999097585678101}}
 ```
 
 or refer:
