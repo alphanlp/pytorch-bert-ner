@@ -207,7 +207,7 @@ class ChineseNerProcessor(DataProcessor):
 
     def get_labels(self):
         # {'B_PER', 'O', 'I_T', 'I_LOC', 'I_ORG', 'I_PER', 'B_T', 'B_ORG', 'B_LOC'}
-        return ["O", "B_LOC", "I_LOC", "B_T", "I_T", "B_PER", "I_PER", "B_ORG", "I_ORG", "X", "[CLS]", "[SEP]"]
+        return ["O", "B-LOC", "I-LOC", "B-T", "I-T", "B-PER", "I-PER", "B-ORG", "I-ORG", "X", "[CLS]", "[SEP]"]
 
     def _create_examples(self, lines, set_type):
         examples = []
